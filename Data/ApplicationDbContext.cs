@@ -14,6 +14,5 @@ namespace todoApp.Data
         {
         }
 
-        public DbSet<ToDo> Todos {get;set;}
     }
 }

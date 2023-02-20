@@ -85,4 +85,3 @@ D:\workspace\csharp\todoApp\obj\Debug\net5.0\refint\todoApp.dll
 D:\workspace\csharp\todoApp\obj\Debug\net5.0\todoApp.pdb
 D:\workspace\csharp\todoApp\obj\Debug\net5.0\todoApp.genruntimeconfig.cache
 D:\workspace\csharp\todoApp\obj\Debug\net5.0\ref\todoApp.dll
-D:\workspace\csharp\todoApp\obj\Debug\net5.0\Razor\Views\ToDo\Index.cshtml.g.cs

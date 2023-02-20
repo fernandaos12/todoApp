@@ -8,7 +8,7 @@ namespace todoApp.Models
 {
     public class ToDo
     {
-        public int Id{get;set;}
+        public int id{get;set;}
         
         [DisplayName("Titulo")]
         [System.ComponentModel.DataAnnotations.Required(ErrorMessage = "Campo Obrigatório")]
