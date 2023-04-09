@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Areas\\Identity",
-    "\\Areas\\Identity\\Pages"
+    "\\Controllers",
+    "\\Data"
   ],
+  "SelectedNode": "\\todoApp.csproj",
   "PreviewInSolutionExplorer": false
 }

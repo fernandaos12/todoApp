@@ -15,9 +15,9 @@ namespace todoApp.Data
         {
         }
 
-        protected override void OnConfiguring(DbCOntextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseMySql(DefaultConnection);
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseMySql(DefaultConnection);
+        //}
     }
 }

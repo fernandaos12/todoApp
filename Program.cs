@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using MySql.Data.MySqlClient;
+using MySqlConnector.Authentication;
 
-using var userContext = new UserContext(Environment.GetEnvironmentVariable("Connection"));
+//using var userContext = new UserContext(Environment.GetEnvironmentVariable("Connection"));
 
 namespace todoApp
 {

@@ -12,7 +12,7 @@ using todoApp.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 
 namespace todoApp
 {
@@ -34,11 +34,17 @@ namespace todoApp
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();*/
 
-            //using Mysql
+            //using Sqlite
+            //var connection = Configuration["ConnectionStrings:DefaultConnection"];
+
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseMySql(Configuration.GetConnectionString(connection), ServerVersion.AutoDetect(connection)));
+            //services.AddDatabaseDeveloperPageExceptionFilter();
+
             services.AddDbContext<ApplicationDbContext>(options =>
-              options.UseMySql(
-                Configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version())));
             services.AddDatabaseDeveloperPageExceptionFilter();
+
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -51,7 +57,7 @@ namespace todoApp
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseMigrationsEndPoint();
+                //app.UseMigrationsEndPoint();
             }
             else
             {

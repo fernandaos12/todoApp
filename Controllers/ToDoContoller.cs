@@ -56,7 +56,7 @@ namespace todoApp.Controllers
         {   
                 if (ModelState.IsValid)
                 {
-                 to_do.User = User.Identity.Name;
+                 //to_do.user = User.Identity.Name;
 
                   _context.Add(to_do);
                   await _context.SaveChangesAsync();
