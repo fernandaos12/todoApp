@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MySql.Data.MySqlClient;
 using todoApp.Models;
 
 namespace todoApp.Data
@@ -14,5 +15,9 @@ namespace todoApp.Data
         {
         }
 
+        protected override void OnConfiguring(DbCOntextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseMySql(DefaultConnection);
+        }
     }
 }

@@ -13,11 +13,10 @@ namespace todoApp.Models
         [DisplayName("Titulo")]
         [System.ComponentModel.DataAnnotations.Required(ErrorMessage = "Campo Obrigatório")]
         public string Title{ get; set; }
-        public bool Done { get; set; }
+        public Status status { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime LastUpdateDate { get; set; } = DateTime.Now;
-        public string User { get; set; }    
-   
+        public User user { get; set; }      
         
     }
 }

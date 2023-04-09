@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\csharp\\todoApp\\todoApp.csproj": {}
+    "D:\\workspace\\dotnet\\TodoApp\\todoApp\\todoApp.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\csharp\\todoApp\\todoApp.csproj": {
+    "D:\\workspace\\dotnet\\TodoApp\\todoApp\\todoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\csharp\\todoApp\\todoApp.csproj",
+        "projectUniqueName": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\todoApp.csproj",
         "projectName": "todoApp",
-        "projectPath": "D:\\workspace\\csharp\\todoApp\\todoApp.csproj",
-        "packagesPath": "C:\\Users\\Fernanda\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\csharp\\todoApp\\obj\\",
+        "projectPath": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\todoApp.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +59,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "MySqlClient": {
+              "target": "Package",
+              "version": "[5.5.1, )"
             }
           },
           "imports": [
@@ -72,6 +76,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

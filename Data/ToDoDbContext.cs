@@ -15,6 +15,11 @@ namespace todoApp.Data
             
         }
         public DbSet<ToDo> To_Do {get; set;}
+
+        protected override void OnConfiguring (DbCOntextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseMySql(DefaultConnection);
+        }
     }
   
 }
