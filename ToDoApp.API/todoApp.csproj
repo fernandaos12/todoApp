@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="todoApp.csproj" />
     <ProjectReference Include="..\ToDoApp.Core\TodoApp.Core.csproj" />
+    <ProjectReference Include="..\ToDoApp.Infra\ToDoApp.Infra.csproj" />
   </ItemGroup>
 
 </Project>

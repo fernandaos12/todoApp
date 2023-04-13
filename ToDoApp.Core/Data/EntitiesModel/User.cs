@@ -10,5 +10,6 @@ namespace todoApp.Data.EntitiesModel
         public string Name{ get; set; }
         public string Email{ get; set; }     
         public List<ToDo> ToDos{ get; set; }
+        public int ToDoId{ get; set; }
     }
 }

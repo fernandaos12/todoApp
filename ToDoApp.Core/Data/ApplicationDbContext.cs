@@ -28,7 +28,8 @@ namespace ToDoApp.Core.Data
             modelBuilder.Entity<ToDo>()
             .HasOne(m=>m.User)
             .WithMany(m=>m.ToDos)
-            .HasForeignKey(m=>m.UserId);
+            .HasForeignKey(m=>m.Category)
+            .OnDelete(DeleteBehavior.Restrict); ;
 
             modelBuilder.Entity<User>()
             .ToTable("TB_USERS")
@@ -36,13 +37,19 @@ namespace ToDoApp.Core.Data
 
             modelBuilder.Entity<User>()
             .HasMany(m=>m.ToDos)
-            .WithOne(m=>m.User)
-            .HasForeignKey(m=>m.ToDo_Id); 
+            .WithOne()
+            .HasForeignKey(m=>m.TodoId)
+            .OnDelete(DeleteBehavior.Restrict); ; 
             
             modelBuilder.Entity<Categories>()
             .ToTable("TB_CATEGORY")
             .HasKey(m=>m.Id);  
-           
+            
+            modelBuilder.Entity<Categories>()       
+            .HasMany(m=> m.ToDos)
+            .WithOne()
+            .HasForeignKey(m=> m.TodoId)
+            .OnDelete(DeleteBehavior.Restrict);             
         }
     }
 }
