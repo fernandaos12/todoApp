@@ -17,7 +17,7 @@ namespace todoApp.Models
         public string UserId { get; set; }             
         public int ToDo_Id { get; set; }             
         public string CategoryId { get; set;}
-        public List<CategoriesModel> categories { get; set;}
+        public List<CategoryModel> categories { get; set;}
       
     }
 }

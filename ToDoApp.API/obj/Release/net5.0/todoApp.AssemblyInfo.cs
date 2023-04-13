@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-todoApp-9575791b-7364-4660-bfc4-e8123d83dc0d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("todoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]

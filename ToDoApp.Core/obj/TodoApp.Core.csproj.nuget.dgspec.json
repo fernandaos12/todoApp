@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\TodoApp.Core.csproj": {}
+    "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\ToDoApp.Core.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\TodoApp.Core.csproj": {
+    "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\ToDoApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\TodoApp.Core.csproj",
-        "projectName": "TodoApp.Core",
-        "projectPath": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\TodoApp.Core.csproj",
+        "projectUniqueName": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\ToDoApp.Core.csproj",
+        "projectName": "ToDoApp.Core",
+        "projectPath": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\ToDoApp.Core.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
         "outputPath": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,49 +40,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Http": {
               "target": "Package",
-              "version": "[5.0.16, )"
-            },
-            "Microsoft.AspNetCore.HttpsPolicy": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[2.2.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
             },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.32, )"
-            },
-            "MySqlClient": {
-              "target": "Package",
-              "version": "[5.5.1, )"
-            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[5.0.4, )"
             }
           },
           "imports": [

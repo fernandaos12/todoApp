@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace todoApp.Data.EntitiesModel
 {
-    public class Categories : BaseEntity
+    public class Category : BaseEntity
     {
         public string Type { get; set; }
         public string Description { get; set; }

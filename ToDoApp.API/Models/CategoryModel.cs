@@ -2,7 +2,7 @@
 
 namespace todoApp.Models
 {
-    public class CategoriesModel 
+    public class CategoryModel 
     {
         public int Id { get; set; }
         public String Type { get; set; }
