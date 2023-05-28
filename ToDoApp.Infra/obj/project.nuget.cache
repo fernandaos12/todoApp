@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uDSe/jax/jJl75S76SRtw46t++vN/EbmKpZPDQrfx68BZVzdJgXQYAG4hFajSeAYkbrThWbpwB1BxRqvw8H8YQ==",
+  "dgSpecHash": "9XnGf3sTmRrZhgLKC4rGBTYlVV8PmOtMRLjshmIooETofZ9UiufJF953NqThlxiDoUu8q4VScgpaAJBpH+aAfg==",
   "success": true,
   "projectFilePath": "D:\\workspace\\dotnet\\TodoApp\\todoApp\\ToDoApp.Infra\\ToDoApp.Infra.csproj",
   "expectedPackageFiles": [

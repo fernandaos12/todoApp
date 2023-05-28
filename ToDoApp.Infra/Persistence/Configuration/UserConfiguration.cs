@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using todoApp.Data.EntitiesModel;
+using ToDoApp.Core.Entities;
 
 namespace ToDoApp.Infra.Persistence.Configuration
 {

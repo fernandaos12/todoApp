@@ -261,7 +261,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "5.0.4"
         },
         "runtime": {
-          "TodoApp.Core.dll": {}
+          "ToDoApp.Core.dll": {}
         }
       }
     }

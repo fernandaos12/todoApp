@@ -1,8 +1,8 @@
 D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\ToDoApp.Infra.deps.json
 D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\ToDoApp.Infra.dll
 D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\ToDoApp.Infra.pdb
-D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\TodoApp.Core.dll
-D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\TodoApp.Core.pdb
+D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\ToDoApp.Core.dll
+D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\bin\Debug\net5.0\ToDoApp.Core.pdb
 D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\obj\Debug\net5.0\ToDoApp.Infra.csproj.AssemblyReference.cache
 D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\obj\Debug\net5.0\ToDoApp.Infra.GeneratedMSBuildEditorConfig.editorconfig
 D:\workspace\dotnet\TodoApp\todoApp\ToDoApp.Infra\obj\Debug\net5.0\ToDoApp.Infra.AssemblyInfoInputs.cache

@@ -1,8 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using todoApp.Data.EntitiesModel;
-
+using ToDoApp.Core.Entities;
 
 namespace ToDoApp.Infra.Persistence.Configuration
 {

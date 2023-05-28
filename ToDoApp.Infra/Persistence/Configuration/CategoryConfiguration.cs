@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using todoApp.Data.EntitiesModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using ToDoApp.Core.Entities;
 
 namespace ToDoApp.Infra.Persistence.Configuration
 {
